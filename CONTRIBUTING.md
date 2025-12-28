@@ -44,6 +44,7 @@ You can contribute in many ways, including but not limited to:
 - Optimizations and performance improvements
 - Tooling and IDE support (LSP, VS Code extensions)
 
+
 ### 🤖 AI & ML
 
 - Transformer tokenization experiments
@@ -113,6 +114,121 @@ Example:
 ```text
 feat(compiler): Add semantic dependency graph resolver
 ```
+---
+
+## Delopment Workflow
+
+
+### 1️⃣ Fork the Repository
+
+Click the **Fork** button on GitHub and clone your fork:
+
+```bash
+git clone https://github.com/<your-username>/sanskritam-lang.git
+cd sanskritam-lang
+```
+
+2️⃣ Create a Branch
+
+Use a descriptive branch name
+```
+git checkout -b feature/grammar-enhancement
+```
+Examples:
+
+feature/parser-improvement
+
+fix/tokenizer-bug
+
+docs/language-guide
+
+research/execution-model
+
+3️⃣ Make Your Changes
+
+Guidelines:
+
+Keep commits focused and meaningful
+
+Follow existing folder structure
+
+Add comments where logic is non-trivial
+
+Prefer clarity over cleverness
+
+Write test cases if applicable
+
+4️⃣ Commit Messages
+
+Use clear, conventional commit messages:
+```
+feat: add pattern matching construct
+fix: resolve ambiguity in loop grammar
+docs: improve language overview
+research: refine execution model
+```
+
+5️⃣ Submit a Pull Request
+
+Push your branch to your fork
+
+Open a Pull Request against main
+
+Clearly describe:
+
+What problem it solves
+
+Why the change is needed
+
+Any breaking changes
+
+A maintainer will review your PR and may request changes.
+
+Project Structure (High-Level)
+```
+sanskritam-lang/
+├── grammar/        # Language grammar definitions
+├── lexer/          # Tokenizer implementation
+├── parser/         # Parser & AST generation
+├── runtime/        # Execution model / VM
+├── examples/       # Sample SPL programs
+├── docs/           # Documentation & research
+├── tests/          # Test cases
+├── tools/          # CLI, utilities
+├── README.md
+├── CONTRIBUTING.md
+└── CODE_OF_CONDUCT.md
+```
+
+Style Guidelines
+
+Use consistent naming conventions
+
+Avoid unnecessary abbreviations
+
+Follow language-specific formatting where applicable
+
+Keep research files well-referenced
+
+Intellectual Property & Licensing
+
+By contributing to this repository, you agree that:
+
+Your contributions will be licensed under the same license as the project
+
+You have the right to submit the contributed work
+
+You grant the project maintainers the right to use, modify, and distribute your contributions
+
+Reporting Issues or Concerns
+
+If you encounter:
+
+Technical issues
+
+Security concerns
+
+Violations of the Code of Conduct
 
 ---
 
