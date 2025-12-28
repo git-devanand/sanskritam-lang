@@ -40,7 +40,7 @@ This Code of Conduct applies within project spaces and public spaces when repres
 
 ## Enforcement
 
-Instances of unacceptable behavior may be reported to maintainers at **brahmandxinnovations@gmail.com**. All complaints will be reviewed, investigated, and receive an appropriate response. Maintainers are obligated to maintain confidentiality regarding incident reporters. Project maintainers who fail to enforce this Code of Conduct in good faith may face temporary or permanent consequences.
+Instances of unacceptable behavior may be reported to maintainers at <devanand@brahmandx.com>. All complaints will be reviewed, investigated, and receive an appropriate response. Maintainers are obligated to maintain confidentiality regarding incident reporters. Project maintainers who fail to enforce this Code of Conduct in good faith may face temporary or permanent consequences.
 
 ## Attribution
 
